@@ -2,8 +2,8 @@ import streamlit as st
 import random
 from datetime import date
 
-st.set_page_config(page_title="Powered by Burak Efe", page_icon="🚀", layout="centered")
-st.title("🚀 Powered by Burak Efe")
+st.set_page_config(page_title="Powered by Champion", page_icon="🚀", layout="centered")
+st.title("🚀 Powered by Champ")
 
 # Sidebar: Project selection
 project = st.sidebar.radio("Select a project:", 
