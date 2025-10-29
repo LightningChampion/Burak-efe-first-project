@@ -16,7 +16,7 @@ if project == "🎲 Dice Roll":
         dice = random.randint(1, 6)
         st.success(f"You rolled: {dice}")
 
-# 2️⃣ Calculator
+# 2️⃣ Calculator Project
 elif project == "🧮 Calculator":
     st.header("🧮 Calculator")
     num1 = st.number_input("Enter first number", value=0.0)
