@@ -9,7 +9,7 @@ st.title("🚀 Powered by Champ")
 project = st.sidebar.radio("Select a project:", 
                            ["🎲 Dice Roll", "🧮 Calculator", "🔢 Guess the Number", "🎂 Age Calculator", "📝 To Do List"])
 
-# 1️⃣ Dice Roll
+# 1️⃣ Dice Roll Project
 if project == "🎲 Dice Roll":
     st.header("🎲 Dice Roll")
     if st.button("Roll the Dice"):
